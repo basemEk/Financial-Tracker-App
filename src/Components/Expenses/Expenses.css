@@ -1,0 +1,36 @@
+ 
+.incomes-form{
+    text-align: center;
+    margin:5%;
+}
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+ 
+  .table-form{
+      margin-top: 3%;
+  }
+
+  .ADD-btn{
+    width:100px;
+  }
+
+  #edit-btn{
+    color:#fff;
+    width:71px;
+    margin-right:5px;
+  }
+  

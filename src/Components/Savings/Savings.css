@@ -1,0 +1,85 @@
+.savings-h1-h5-btn{
+  margin-top: 5%;
+}
+
+.savingsTable-wrapper{
+   max-width: 1000px;
+   margin: 5% auto;
+   margin-top: 2%;
+ }
+
+ #savings-thead{
+   background-color: rgb(220, 220, 248);
+ }
+
+ #savings-h1 {
+   text-align: center;
+ }
+
+ #savings-h5 {
+   text-align: center;
+   color: rgb(62, 176, 221);
+ }
+
+ #ADD-btn{
+     width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+
+
+
+  /*Responsiveness*/
+
+  /* Tablets layout */
+  @media only screen and (max-width: 765px){
+.savingsTable-wrapper{
+  width:400px;
+}
+
+.savings-h1-h5-btn{
+  margin-top: 5%;
+}
+
+thead{
+  width:10px;
+}
+  }
+   
+  
+
+    /*Phone layout*/   
+    @media(max-width: 500px){
+      .table thead{
+        display: none;
+      }
+    
+      .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+      }
+      .table tr{
+        margin-bottom:15px;
+      }
+      .table td{
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+      }
+      .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left:0;
+        width: 50%;
+        padding-left:15px;
+        font-size:15px;
+        font-weight: bold;
+        text-align: left;
+      }
+    }

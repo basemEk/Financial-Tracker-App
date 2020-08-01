@@ -1,0 +1,21 @@
+.login-form{
+    width: 100%;
+    height:100%;
+    max-width: 330px;
+    padding:15px;
+    margin:auto;
+    margin-top: 4%;
+    }
+    
+    .font-weight-bold{
+        margin-left: 70px;
+    }
+    
+    .email{
+        width: 300px;
+    }
+    
+    .password{
+        width: 300px;
+    }
+    

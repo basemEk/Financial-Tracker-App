@@ -1,0 +1,26 @@
+#charts-list{
+    width:200px;
+    margin-left: 6em;
+  }
+
+  #chooseType{
+    width:200px;
+    margin-left: 6em;
+  }
+
+
+  .charts-form {
+    text-align: center;
+    margin-top: 6%;
+     }
+
+    #charts-list{
+      padding-right: 0.99em;
+    }
+
+    span{
+      width:0.09%;
+      display: inline-block;
+      margin-left:2px;
+      font-weight: bold;
+    }

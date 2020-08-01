@@ -1,0 +1,19 @@
+.saving-form{
+    background-color: rgb(192, 189, 189);
+    padding:5%;
+    text-align: center;
+}
+
+.saving-amount{
+    width:90px;
+}
+
+.amount-currency{
+    margin-left: 50px;
+}
+
+.mode-startEnd-btn{
+    position: relative;
+    margin-top: -1%;
+}
+
